@@ -4,7 +4,7 @@ select country, count(country)
 from circuits 
 group by country;
 
--- Quais pilotos com maior numero de corridas?
+-- Quais pilotos com maior numero de corridas vencidas?
 
 select driverId, count(driverId) 
 from qualifying 
