@@ -24,3 +24,11 @@ from results
 order by fastestLapTime asc
 limit 5;
 
+
+-- Quais equipe/construtores ganharam mais corridas?
+
+
+select constructorId,
+	count(constructorId)
+	from constructors
+    group by constructorId;
