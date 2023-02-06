@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Anton&family=Bebas+Neue&family=Oleo+Script:wght@700&family=Orbitron:wght@500&family=Prompt&family=Teko&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    width: 100%;
+    background-color: #444;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(50deg, rgba(255, 247, 247, 0.685) 32.62%
+    , rgba(132, 10, 10, 0.755) 70.61%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    height: 125px;
+    background-color: rgb(255, 161, 161);
+    border-radius: 90PX;
+}
+.logo:hover{
+    background-color: white;
+    transition: 500ms;
+}
+
+header .menu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    padding-top: 0;
+}
+
+header .menu li{
+    display: inline-block;
+}
+.grafico{
+    height: 550px;
+    border-radius: 70px;
+    border: double 8px red
+}
+
+
+
+header .menu a{
+    color: white;
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 500ms;
+}
+
+header .menu .ativo, header .menu a:hover{
+    color: #444;
+    background-color: white;
+}
+
+.btns{
+    font-size: 25px;
+}
+.principal{
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    margin-bottom: 75px;
+    
+    
+}
+
+.prin-force{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+     -webkit-text-stroke: 0.5px rgb(255, 0, 0);
+     border-top: rgb(0, 0, 0) solid 5px;
+     border-bottom: rgb(255, 0, 0) solid 5px;
+     margin: 10px;
+     background-color: rgb(0, 0, 0);   
+     opacity: 0.8;
+     
+}
+
+.grafico-especial{
+    display: flex;
+    flex-direction: row;
+}
+.fonte{
+    font-size: 70px;
+    font-family: Oleo Script;
+}
+.fonte-menor{
+    font-size: 50px;
+    font-family: Oleo Script;
+}
+
+.principal h2{
+    
+    font-size: 55px;
+}
+
+.principal .links a{
+    color: white;
+    padding: 10px 18px;
+    display: inline-block;
+    border: 1px solid white;
+    border-radius: 3px;
+    margin-top: 20px;
+    transition: 200ms;
+}
+
+.principal .links a:hover{
+    color: #444;
+    background-color: white;
+
+}
+.apresentar{
+    font-size: 50px;
+    font-family: Oleo Script;
+    text-align: center;
+}
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.centralizar1{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
